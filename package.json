@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "allowedHosts": "all",
   "proxy": "http://cae-test-backend:8080",
   "eslintConfig": {
     "extends": "react-app"
