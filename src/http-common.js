@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://cae-test-backend:8080/api",
+  baseURL: process.env.VUE_APP_BASE_URL,
   headers: {
     "Content-type": "application/json"
   }
